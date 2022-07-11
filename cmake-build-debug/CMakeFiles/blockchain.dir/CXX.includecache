@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ASUS/Desktop/blockchain/blockchain.h
+iostream
+-
+string
+-
+vector
+-
+sha256.h
+C:/Users/ASUS/Desktop/blockchain/sha256.h
+
+C:/Users/ASUS/Desktop/blockchain/main.cpp
+iostream
+-
+blockchain.h
+C:/Users/ASUS/Desktop/blockchain/blockchain.h
+
+C:/Users/ASUS/Desktop/blockchain/sha256.h
+iostream
+-
+string
+-
+vector
+-
+algorithm
+-
+math.h
+-
+
